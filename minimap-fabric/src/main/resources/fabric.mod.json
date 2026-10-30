@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemonmap",
+  "version": "${version}",
+  "name": "Nekoro FTB Chunks Cobblemon Icons",
+  "description": "Shows Cobblemon Pokemon on the FTB Chunks minimap and large map with their own icons.",
+  "authors": ["Alolan Xardas"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.xardas.cobblemonmap.CobblemonMapFabric"
+    ]
+  },
+  "mixins": [
+    "mixin.cobblemonmap.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "ftbchunks": ">=2101.1.22",
+    "ftblibrary": ">=2101.1.37",
+    "cobblemon": ">=1.8.0"
+  }
+}

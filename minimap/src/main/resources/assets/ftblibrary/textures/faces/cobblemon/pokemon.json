@@ -1,0 +1,9 @@
+{
+  "texture": "cobblemonmap:textures/pokemon/0.png",
+  "size": {
+    "width": 16,
+    "height": 16
+  },
+  "scale": 1.5,
+  "default_enabled": true
+}
