@@ -3,41 +3,41 @@ loaderVersion = "[4,)"
 license = "MIT"
 
 [[mods]]
-    modId = "cobblemonmap"
-    version = "1.4.0"
+    modId = "nekoroftbchunkscobblemonicons"
+    version = "6"
     displayName = "Nekoro FTB Chunks Cobblemon Icons"
     authors = "Alolan Xardas"
     description = "Shows Cobblemon Pokemon on the FTB Chunks minimap and large map with their own icons."
 
-[[dependencies.cobblemonmap]]
+[[dependencies.nekoroftbchunkscobblemonicons]]
     modId = "neoforge"
     type = "required"
     versionRange = "[21.1,)"
     ordering = "NONE"
     side = "BOTH"
 
-[[dependencies.cobblemonmap]]
+[[dependencies.nekoroftbchunkscobblemonicons]]
     modId = "minecraft"
     type = "required"
     versionRange = "[1.21.1,1.22)"
     ordering = "NONE"
     side = "BOTH"
 
-[[dependencies.cobblemonmap]]
+[[dependencies.nekoroftbchunkscobblemonicons]]
     modId = "ftbchunks"
     type = "required"
     versionRange = "[2101.1.22,)"
     ordering = "AFTER"
     side = "CLIENT"
 
-[[dependencies.cobblemonmap]]
+[[dependencies.nekoroftbchunkscobblemonicons]]
     modId = "ftblibrary"
     type = "required"
     versionRange = "[2101.1.37,)"
     ordering = "AFTER"
     side = "CLIENT"
 
-[[dependencies.cobblemonmap]]
+[[dependencies.nekoroftbchunkscobblemonicons]]
     modId = "cobblemon"
     type = "required"
     versionRange = "[1.8,)"
@@ -45,4 +45,4 @@ license = "MIT"
     side = "BOTH"
 
 [[mixins]]
-    config = "mixin.cobblemonmap.json"
+    config = "mixin.nekoroftbchunkscobblemonicons.json"

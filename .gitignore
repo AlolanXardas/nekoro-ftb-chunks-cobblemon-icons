@@ -6,6 +6,7 @@
 !/DESCRIPTION.html
 !/CHANGELOG.md
 !/README.md
+!/tools/
 !/.gitignore
 # build output and caches
 build/

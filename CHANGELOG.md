@@ -1,5 +1,16 @@
 # Changelog
 
+## 6
+
+### New
+- Caught indicator icons: ball, cat, star, cross, eye, exclamation mark and question mark, all with a black frame.
+- Caught indicator color, chosen from the outline colors (default red).
+- Inverted caught indicator: gray badge on caught Pokémon and a colored one on uncaught Pokémon.
+
+### Changed
+- New mod id `nekoroftbchunkscobblemonicons` (was `cobblemonmap`). Resource packs that replace icons now use `assets/nekoroftbchunkscobblemonicons/`.
+- Release numbers instead of versions: 1.0–1.4 were five releases, so this one is 6.
+
 ## 1.4
 
 ### New
